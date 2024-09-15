@@ -1,0 +1,12 @@
+name: work
+on:
+  push
+jobs:
+  using:
+    make: setup
+    make: start
+  tests:
+    run: tests
+  linter:
+    make: lint
+  
