@@ -12,7 +12,6 @@ jobs:
     steps: # список шагов, которые надо выполнить
       - uses: actions/checkout@v4
       - run: make setup
-      - run: make start
       - run: make test
       - run: make lint
   
